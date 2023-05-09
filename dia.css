@@ -77,3 +77,13 @@ footer{
     line-height: 80px;
     text-align: center;
 }
+.salteo{
+    width: calc(50% - 8px) ;
+    float: left;
+    color: white;
+    border: 2px solid darkcyan;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 10px;
+
+}
