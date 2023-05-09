@@ -78,12 +78,11 @@ footer{
     text-align: center;
 }
 .salteo{
-    width: calc(50% - 8px) ;
+    width: calc(50% - 0px) ;
     float: left;
     color: white;
-    border: 2px solid darkcyan;
     text-align: center;
     padding-bottom: 5px;
-    font-size: 10px;
+    font-size: 30px;
 
 }
