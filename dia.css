@@ -20,7 +20,7 @@ nav{
     padding-left: 150px;
     padding-right: 200px;
     width: 100%;
-    background: yellowgreen;
+    background: black;
     height: 100px;
     line-height: 60px;
     border-bottom:2px solid black;
@@ -71,7 +71,7 @@ nav ul li{
     font-size: 10px;
 }
 footer{
-    background: yellowgreen;
+    background: darkmagenta;
     color: red;
     height: 80px;
     line-height: 80px;
