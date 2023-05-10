@@ -76,6 +76,7 @@ footer{
     height: 80px;
     line-height: 80px;
     text-align: center;
+    font-size: 30px;
 }
 .salteo{
     width: calc(50% - 0px) ;
