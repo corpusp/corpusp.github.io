@@ -39,7 +39,7 @@ nav ul li{
     clear: both;
 }
 #blablabla{
-    width: calc(100% - 60px);
+    width: 90%;
     min-height: 700px;
     background: darkcyan;
     padding-left: 30px;
