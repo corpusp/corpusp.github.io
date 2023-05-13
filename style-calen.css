@@ -1,0 +1,98 @@
+
+/*inicio del cuerpo*/
+#cabeza{
+    width: 70%;
+    margin:  auto;
+    border: 2px solid gray;
+    margin-top: 1%;
+    
+}
+.blablabla{
+    margin-left: 4%;
+    width: 100%;
+}
+.calen{
+    margin-right: 8%;
+    text-align: justify;
+    margin-bottom: 20%;
+}
+.calen p{
+    margin-bottom: 5%;
+}
+.calen iframe{
+    width: 70%;
+    float: right;
+}
+.dia{
+    line-height: 2;
+    margin-top: 3%;
+    font-size: larger;
+    font-size: 150%;
+    color: brown;
+    margin-bottom: 2%;
+}
+.anim img{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.anim a{
+    text-decoration: none;
+    color: white;
+}
+
+.anim{
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: black;
+    float: left;
+    width: 28%;
+    height: 30vh;
+    color: black;
+    text-align: center;
+    font-size: 70%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+.anima{
+    float: left;
+    width: 100%;
+    height: 10vh;
+    margin-right: 4%;
+    margin-bottom: 2%;  
+
+}
+.animo{
+    float: left;
+    width: 50%;
+    height: 30vh;
+    margin-right: 4%;
+
+}
+.animu{
+    float: left;
+    width: 20%;
+    height: 30vh;
+    margin-right: 4%;
+}
+footer a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+footer{
+    margin-top: 50%;
+    background-color: aqua;
+    color: red;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.salteo{
+    width: calc(50% - 0px) ;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
