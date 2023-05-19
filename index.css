@@ -197,8 +197,13 @@
     }
     nav ul li:first-child{
         margin-right: 24%;
-        margin-left: 6%;
+        margin-left: 7%;
         width: 10%;
+    }
+    .newa img{
+        width: 50% ;
+
+
     }
 
     nav ul li:last-child{    
