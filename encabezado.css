@@ -1,7 +1,5 @@
 
-
-
-
+/*movil*/
 @media (max-width: 767px){
     .desktop{display: none;}
     .tablet{display: none;}
@@ -65,73 +63,62 @@ nav ul li:last-child{
 }
 @media (min-width: 768px) and (max-width:990px){
     .desktop{display: none;}
-    .move{display: none;}
+    .movil{display: none;}
 }
+/*desktop*/
 @media (min-width: 991px){
-    .move{display: none;}
+    .movil{display: none;}
     .tablet{display: none;}
 
     *{
-        margin: 0px;
-        padding: 0px;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
     }
     body{
         background-color: lightcyan;
-        /*
-        background-image: url("https://www.industriaanimacion.com/wp-content/uploads/2022/06/Anime_en_2023.jpg");
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-attachment: fixed;*/
-        font-family: Arial, Helvetica, sans-serif;
         
     }
     header{
         position: sticky;
         top: 0;
         z-index: 100;
-        width: 100%;
-        background:rgb(215, 147, 12);
-        height: 12vh;
-        line-height: 2;
-        border-bottom: 1px solid rgb(142, 211, 37);
-        padding-left: 5vw;
-        padding-right: 5vw;
-        
+        background: #BDA27B;
     }
-    nav ul li{
-        text-align: right;
-        margin-right: 2.5%;
-        width: 20%;
-        float: left;
-        list-style: none;
-        margin-top: 1%;
+    nav{
+        height: 70px;
+        display: flex;
+    }
+    ul{
+        display: flex;
+        width: 100%;
+        padding: 0 1% 0 6%;
+        }
+    ul li{   
+        flex-grow: .2; 
+        height: 70px;
+        display: flex;
+        align-items: center;
         font-size: 160%;
     }
-    nav ul li:first-child{
-        font-size: 160;
-        width: 30%;
+    ul li:first-child{
+        display: flex;
+        justify-content: cen;
+        flex-grow: 1;
+        align-items: normal;
     }
-    .newa{
-        margin-left: 10%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-shadow: fuchsia;
-        color: black;
-        text-decoration: line-through;
-        width: 36%;
+    ul li:first-child img{
+        width: 100%;
+        height: 100%;    
     }
-    .image{
-        float: left;
-        margin-right: 2%;
-        margin-bottom: 0%;
-        margin-top: 0%;
-    }
-    nav ul li:last-child{    
-        width: 20%;
-        padding-right: 4%;
-    
-    }
-    .links{
+    ul li a{
         text-decoration: none;
-        color: antiquewhite;
+        color: #fff;
+        transition-property: filter;
+        transition-duration: 2s;
+        transition-delay: .3s;
+
+    }
+    ul li a:hover{
+        filter: drop-shadow(10px 1px 15px );
     }
 }
