@@ -94,8 +94,7 @@
 @media (min-width: 991px){
     .movil{display: none;}
     .tablet{display: none;}
-
-
+    
     /*inicio del cuerpo*/
     .estruct{
         width: 80%;
