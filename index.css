@@ -96,36 +96,45 @@
     .tablet{display: none;}
     
     /*inicio del cuerpo*/
-    .estruct{
-        width: 80%;
-        margin: 0px auto;
-        border: 2px solid white;
-    }
     .container {
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 1%;
-        font-size: 160%;
         margin-bottom: 9%;
+        font-size: 4vh;
     }   
     .container__presentation{
         grid-column: 1/4;
     }
     .container__presentation h1{
         font-weight: bold;
-        font-size: 233%;
         color: #167;
-        text-align: center;
+        font-size: 12vh;
+    }
+    .container__presentation p{
+        text-align: justify;
     }
     .container__recom{
-        padding: 0% 5% 0% 0%    ;
         grid-column: 1/3;
-        display: grid;
-        grid-template-rows: 100px repeat(5,1fr);
+        padding-right: 5%;
     }
-    .container__recom a img{
+    .container__recom-texto{
+        margin-bottom: 5%;
+        
+    }
+    .container__recom-imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 450vh;
+    }
+    .container__recom-imagenes a {
+        height: 18%;
+    }
+    .container__recom-imagenes a img{
+        object-fit: cover;
+        height: 90%;
         width: 100%;
-        height: 70vh;
     }
     .aside{
         grid-column: 3/4;

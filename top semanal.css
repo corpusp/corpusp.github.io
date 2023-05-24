@@ -1,102 +1,15 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-body{
-    background-color: lightcyan;
-    /*
-    background-image: url("https://www.industriaanimacion.com/wp-content/uploads/2022/06/Anime_en_2023.jpg");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-attachment: fixed;*/
-    font-family: Arial, Helvetica, sans-serif;
-    
+.container h1 {
+    align-self: center;
+    color: blueviolet;
 }
-header{
-    position: sticky;
-    top: 0;
-    width: 90%;
-    background:rgb(215, 147, 12);
-    height: 80px;
-    line-height: 2;
-    border-bottom: 1px solid rgb(142, 211, 37);
-    font-size: 160%; 
-    padding-left: 5%;
-    padding-right: 5%;
-    
+.container a {
+    width: 80%;
+    align-self: center;
 }
-nav{
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 0%;
-    
-}
-nav ul li{
-    float: left;
-    list-style: none;
-    margin: 1%;
-    margin-left: 2%;   
-    margin-right: 4%;
-    margin-bottom: 0%;
-}
-nav ul li:first-child{
-    margin-right: 30%;
-    margin-left: 4%;
-    width: 10%;
-}
-.newa{
-    float: top;
-    padding-left: 0px;
-    position: absolute;
-    right: 69%;
-}
-.image{
-    float: left;
-    margin-right: 0%;
-    margin-bottom: 0%;
-    height: auto;
-}
-nav ul li:last-child{    
-    margin-right: 0%;
-}
-.links{
-    text-decoration: none;
-    color: antiquewhite;
-}
-#cabeza h1{
-    background: darkcyan;
-    padding-top: 20px;
-    padding-left: 32px;
-}
-#cabeza{
-    width: 70%;
-    margin: 0px auto;
-    border: 2px solid gray;
-}
-.clear{
-    clear: both;
-}
-#blablabla{
-    width: calc(100% - 60px);
-    min-height: 470px;
-    background: darkcyan;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 40px;
-
-}
-.article {
-    text-align: center;
-    color: aqua;
-    font-size: 45px;
-    margin-bottom: 10px;}
 
 
-footer{
-    background: violet;
-    color: blue;
-    text-align: center;
-    height: 80px;
-    line-height: 80px;
-}
