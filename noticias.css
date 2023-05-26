@@ -1,43 +1,30 @@
 /*inicio de cuerpo*/
-#cabeza h1{
-    padding-top: 20px;
-    padding-left: 32px;
+.container{
+    display: flex;
 }
-#cabeza{
-    width: 70%;
-    margin: 0px auto;
-    border: 2px solid white;
+.container__article{
+    display: flex;
+    flex-wrap: wrap;
 }
-.clear{
-    clear: both;
-}
-#blablabla{
-    width: calc(100% - 60px);
-    min-height: 570px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 40px;
-
-}
-.article h1 {
+.container__article h1 {
+    flex-basis: 100%;
     text-align: center;
-    color: red;
-    font-size: 45px;
-    margin-bottom: 0px;}
-.article {
-    font-size: px;
-    margin-bottom: 20px;}
+    color: #f00;
+    font-size: calc(1.5vw + 2em);
+    font-weight: 600;
+}
+.rocas p{
+    font-size: calc(1.2vw + .1em);
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.3;
+}
+.rocas img{
+    height: calc(4vh + 15em);
+}
 
 .rocas{
-    padding-top: 10px;
     width: 50%;
-    float: left;
-}
-footer{
-    background: violet;
-    color: blue;
-    text-align: center;
-    height: 80px;
-    line-height: 80px;
+    padding: 2%;
+    height: calc(4vh + 30em);
 }
