@@ -148,12 +148,12 @@
     }
     .container__aside{
         font-size: 60%;
-        height: 90vh;
+        height: 88vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         position: sticky;
-        top: 4.5em;
+        top: 12vh;
         z-index: 1;
         font-size: calc(.1em + 1vw);
     }
